@@ -6,9 +6,9 @@ git clone https://github.com/Streafd/-.git
 npm install
 
 # 启动服务
-npm run dev
+npm run serve
 ```
-基于vue2的管理模板进行搭建->https://github.com/PanJiaChen/vue-admin-template.git
+
 
 # 文件介绍
 ```bash
@@ -29,20 +29,35 @@ src
     ------assets文件夹：里面放置一些静态资源（一般共享的），放在aseets文件夹里面静态资源，在webpack打包的时候，会进行编译
     ------components文件夹：一般放置非路由组件获取全局组件
     ------icons这个文件夹的里面放置了一些svg矢量图
-    ------layout文件夹：他里面放置一些组件与混入
     ------router文件夹：与路由相关的
-    -----store文件夹：一定是与vuex先关的
-    -----style文件夹：与样式先关的
-    ------utils文件夹：request.js是axios二次封装文件****
+    -----store文件夹：一定是与vuex相关的
+    -----style文件夹：与样式相关的
+    ------utils文件夹：一些对外暴露的js文件
     ------views文件夹：里面放置的是路由组件
 
 App.vue:根组件
 main.js：入口文件
-permission.js:与导航守卫先关、
-settings：项目配置项文件
-.env.development
-.env.producation
 ```
 
 # 后台路由
 ![image](https://github.com/Streafd/DeomImg/blob/master/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230623151630.png)
+
+
+# 前台首页
+![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457596364.png)
+![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457639572.png)
+# 产品列表
+![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457721546.png)
+
+# 产品详情
+![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457877686.png)
+# 购物车
+![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457943539.png)
+![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457971969.png)
+![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688458000495.png)
+![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688458049181.png)
+
+# 登录注册
+![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688458067598.png)
+![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688458135468.png)
+
