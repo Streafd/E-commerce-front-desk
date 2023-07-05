@@ -59,10 +59,17 @@ home子组件：分类导航、轮播图、今日推荐、猜你喜欢等
 展示产品的信息数据
 ![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457877686.png)
 
-# 购物流程
+# 购物
+用户将产品添加到购物单
 ![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457943539.png)
+
+展示用户的购物车产品
 ![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457971969.png)
+
+提交订单
 ![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688458000495.png)
+
+支付
 ![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688458049181.png)
 
 # 登录注册
