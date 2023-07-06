@@ -51,6 +51,19 @@ home子组件：分类导航、轮播图、今日推荐、猜你喜欢等
 ![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457596364.png)
 ![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457639572.png)
 
+# 配置代理服务器
+```bash
+配置代理服务器是为了解决跨域请求请求不到的问题的
+devServer: {
+  proxy: {
+    '/api': { // 只对请求路由以/api开头的请求进行代理转发
+      target: 'http://182.92.128.115', // 转发的目标url
+      changeOrigin: true // 支持跨域
+    }
+  }
+},
+```
+
 # Search路由
 1.搜索查询条件参数理解与准备 2.组件动态数据显示 3.根据分类和关键字进行搜索 4.根据品牌进行搜索 5.根据属性进行搜索 6.排序搜索 7.自定义分页组件
 ![image](https://github.com/Streafd/DeomImg/blob/master/qiantai/1688457721546.png)
